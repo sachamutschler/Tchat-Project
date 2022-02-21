@@ -1,7 +1,7 @@
 <?php
 session_start();
-$servername = "dbname";
-$username = "username";
+$servername = "";
+$username = "";
 
 try
 	{
