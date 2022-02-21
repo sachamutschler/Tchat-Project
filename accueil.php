@@ -1,13 +1,13 @@
 <?php
 session_start();
-$servername = "horuswy28.mysql.db";
-$username = "horuswy28";
+$servername = "dbname";
+$username = "username";
 
 try
 	{
-		$db = new PDO("mysql:host=$servername;dbname=horuswy28",$username,'Sacha28199');
+		$db = new PDO("mysql:host=$servername;dbname=",$username,'');
 		$db ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $bdd = new PDO("mysql:host=$servername;dbname=horuswy28",$username,'Sacha28199');
+        $bdd = new PDO("mysql:host=$servername;dbname=",$username,'');
 		$db ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}
 
