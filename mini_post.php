@@ -2,7 +2,7 @@
 // Connexion à la base de données
 try
 {
-	$bdd = new PDO('mysql:host=horuswy28.mysql.db;dbname=horuswy28;charset=utf8mb4', 'horuswy28', 'Sacha28199');
+	$bdd = new PDO('mysql:host=;dbname=;charset=utf8mb4', '', '');
 }
 catch(Exception $e)
 {
