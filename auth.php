@@ -1,7 +1,7 @@
 <?php 
 
-$servername = "horuswy28.mysql.db";
-$username = "horuswy28";
+$servername = "";
+$username = "";
 
 session_start();
 $id_session = session_id();
@@ -25,7 +25,7 @@ if (!empty($_POST)) {
 
     try
 	{
-		$db = new PDO("mysql:host=$servername;dbname=horuswy28",$username,'Sacha28199');
+		$db = new PDO("mysql:host=$servername;dbname=",$username,'');
 		$db ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		echo "vous êtes bien connecté à la base de donnée <br>";
 	}
