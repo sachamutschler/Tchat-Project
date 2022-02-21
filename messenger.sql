@@ -40,15 +40,7 @@ CREATE TABLE IF NOT EXISTS `minichat` (
 --
 
 INSERT INTO `minichat` (`id`, `pseudo`, `message`) VALUES
-(9, 'oui', 'comment allez vous ?'),
 (8, 'oui', 'test'),
-(7, 'oui', 'bonjour'),
-(6, 'oui', 'bonjour'),
-(10, 'oui', 'j\'effectue un test'),
-(11, 'oui', 'wow'),
-(12, 'non', 'ça fonctionne !'),
-(13, 'non', 'j\'effectue un test'),
-(14, 'non', 'je fais encore un test');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
