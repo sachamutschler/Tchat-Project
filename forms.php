@@ -17,8 +17,8 @@
 
 	<?php 
 	//identifiant base de donnée
-	$servername = "horuswy28.mysql.db";
-	$username = "horuswy28";
+	$servername = "";
+	$username = "";
 
 //si on clique sur le bouton envoyer
 if (isset($_POST['submit'])) {
@@ -26,9 +26,9 @@ if (isset($_POST['submit'])) {
 	//On se connecte à la base de donnée 
 	try
 	{
-		$db = new PDO("mysql:host=$servername;dbname=horuswy28",$username,'Sacha28199');
+		$db = new PDO("mysql:host=$servername;dbname=",$username,'');
 		$db ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		$users = new PDO("mysql:host=$servername;dbname=horuswy28",$username,'Sacha28199');
+		$users = new PDO("mysql:host=$servername;dbname=",$username,'');
 		$users ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		echo "vous êtes bien connecté à la base de donnée <br>";
 	}
